@@ -135,7 +135,8 @@ function printSet(node: SetNode, indent: string = ''): string {
 }
 
 function printComment(node: CommentNode, indent: string = ''): string {
-  return `${indent}## ${node.text} **`;
+  // return `${indent}## ${node.text} **`;
+  return '';
 }
 
 function printCompoundExpression(node: CompoundExpressionNode, indent: string = ''): string {
